@@ -7,7 +7,7 @@ result = ''.join(map(str , Random_numbers))
 #userinput
 UserBet = input("Enter 3 Number: ")
 
-#validation of inputs and results
+#validation of inputs and result
 if len(UserBet) == 3 and UserBet.isdigit():
     print(f"Your combination - {UserBet} Result - {result} ")
     print("You win" if UserBet == result else  "Partial win " if sorted(UserBet) == sorted(result) else "You Lose!" )
