@@ -3,7 +3,7 @@ while True:
     # Dictionary to convert number to word
     text_convert = {0: "fold", 1: "unfold"}
     # Assign random choices for computers
-    computer_1, computer_2 = [randint(0, 1) for _ in range(2)]
+    computer_1, computer_2 = [randint(0, 1) for i in range(2)]
     # User input
     Player_1 = input("Enter 0 - fold, 1 - unfold : ")
    #input validation
